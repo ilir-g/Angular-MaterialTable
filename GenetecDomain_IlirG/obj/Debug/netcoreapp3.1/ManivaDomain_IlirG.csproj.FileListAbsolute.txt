@@ -1,0 +1,12 @@
+C:\Users\ilir.gashi\source\repos\ManivaSolution_IlirG\ManivaDomain_IlirG\bin\Debug\netcoreapp3.1\ManivaDomain_IlirG.deps.json
+C:\Users\ilir.gashi\source\repos\ManivaSolution_IlirG\ManivaDomain_IlirG\bin\Debug\netcoreapp3.1\ManivaDomain_IlirG.dll
+C:\Users\ilir.gashi\source\repos\ManivaSolution_IlirG\ManivaDomain_IlirG\obj\Debug\netcoreapp3.1\ManivaDomain_IlirG.AssemblyInfoInputs.cache
+C:\Users\ilir.gashi\source\repos\ManivaSolution_IlirG\ManivaDomain_IlirG\obj\Debug\netcoreapp3.1\ManivaDomain_IlirG.AssemblyInfo.cs
+C:\Users\ilir.gashi\source\repos\ManivaSolution_IlirG\ManivaDomain_IlirG\bin\Debug\netcoreapp3.1\ManivaDomain_IlirG.runtimeconfig.json
+C:\Users\ilir.gashi\source\repos\ManivaSolution_IlirG\ManivaDomain_IlirG\bin\Debug\netcoreapp3.1\ManivaDomain_IlirG.runtimeconfig.dev.json
+C:\Users\ilir.gashi\source\repos\ManivaSolution_IlirG\ManivaDomain_IlirG\obj\Debug\netcoreapp3.1\ManivaDomain_IlirG.genruntimeconfig.cache
+C:\Users\ilir.gashi\source\repos\ManivaSolution_IlirG\ManivaDomain_IlirG\bin\Debug\netcoreapp3.1\ManivaDomain_IlirG.pdb
+C:\Users\ilir.gashi\source\repos\ManivaSolution_IlirG\ManivaDomain_IlirG\obj\Debug\netcoreapp3.1\ManivaDomain_IlirG.dll
+C:\Users\ilir.gashi\source\repos\ManivaSolution_IlirG\ManivaDomain_IlirG\obj\Debug\netcoreapp3.1\ManivaDomain_IlirG.pdb
+C:\Users\ilir.gashi\source\repos\ManivaSolution_IlirG\ManivaDomain_IlirG\obj\Debug\netcoreapp3.1\ManivaDomain_IlirG.csproj.CoreCompileInputs.cache
+C:\Users\ilir.gashi\source\repos\ManivaSolution_IlirG\ManivaDomain_IlirG\obj\Debug\netcoreapp3.1\ManivaDomain_IlirG.csprojAssemblyReference.cache

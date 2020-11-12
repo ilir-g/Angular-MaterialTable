@@ -1,0 +1,15 @@
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecService_IlirG\obj\Debug\netcoreapp3.1\GenetecService_IlirG.csprojAssemblyReference.cache
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecService_IlirG\obj\Debug\netcoreapp3.1\GenetecService_IlirG.AssemblyInfoInputs.cache
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecService_IlirG\obj\Debug\netcoreapp3.1\GenetecService_IlirG.AssemblyInfo.cs
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecService_IlirG\bin\Debug\netcoreapp3.1\GenetecService_IlirG.deps.json
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecService_IlirG\bin\Debug\netcoreapp3.1\GenetecService_IlirG.dll
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecService_IlirG\bin\Debug\netcoreapp3.1\GenetecService_IlirG.pdb
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecService_IlirG\obj\Debug\netcoreapp3.1\GenetecService_IlirG.dll
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecService_IlirG\obj\Debug\netcoreapp3.1\GenetecService_IlirG.pdb
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecService_IlirG\bin\Debug\netcoreapp3.1\GenetecService_IlirG.runtimeconfig.json
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecService_IlirG\bin\Debug\netcoreapp3.1\GenetecService_IlirG.runtimeconfig.dev.json
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecService_IlirG\obj\Debug\netcoreapp3.1\GenetecService_IlirG.genruntimeconfig.cache
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecService_IlirG\bin\Debug\netcoreapp3.1\GenetecDomain_IlirG.dll
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecService_IlirG\bin\Debug\netcoreapp3.1\GenetecDomain_IlirG.pdb
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecService_IlirG\obj\Debug\netcoreapp3.1\GenetecService_IlirG.csproj.CopyComplete
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecService_IlirG\obj\Debug\netcoreapp3.1\GenetecService_IlirG.csproj.CoreCompileInputs.cache

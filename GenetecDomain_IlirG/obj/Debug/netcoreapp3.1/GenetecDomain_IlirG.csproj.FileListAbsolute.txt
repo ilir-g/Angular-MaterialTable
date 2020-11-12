@@ -1,0 +1,12 @@
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecDomain_IlirG\bin\Debug\netcoreapp3.1\GenetecDomain_IlirG.deps.json
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecDomain_IlirG\bin\Debug\netcoreapp3.1\GenetecDomain_IlirG.runtimeconfig.json
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecDomain_IlirG\bin\Debug\netcoreapp3.1\GenetecDomain_IlirG.runtimeconfig.dev.json
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecDomain_IlirG\bin\Debug\netcoreapp3.1\GenetecDomain_IlirG.dll
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecDomain_IlirG\bin\Debug\netcoreapp3.1\GenetecDomain_IlirG.pdb
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecDomain_IlirG\obj\Debug\netcoreapp3.1\GenetecDomain_IlirG.AssemblyInfoInputs.cache
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecDomain_IlirG\obj\Debug\netcoreapp3.1\GenetecDomain_IlirG.AssemblyInfo.cs
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecDomain_IlirG\obj\Debug\netcoreapp3.1\GenetecDomain_IlirG.csproj.CoreCompileInputs.cache
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecDomain_IlirG\obj\Debug\netcoreapp3.1\GenetecDomain_IlirG.dll
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecDomain_IlirG\obj\Debug\netcoreapp3.1\GenetecDomain_IlirG.pdb
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecDomain_IlirG\obj\Debug\netcoreapp3.1\GenetecDomain_IlirG.genruntimeconfig.cache
+C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecDomain_IlirG\obj\Debug\netcoreapp3.1\GenetecDomain_IlirG.csprojAssemblyReference.cache

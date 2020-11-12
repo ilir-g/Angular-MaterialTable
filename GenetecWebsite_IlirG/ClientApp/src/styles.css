@@ -1,0 +1,110 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+/* Provide sufficient contrast against white background */
+
+/*
+    @Table stylesheet
+*/
+table {
+  width: 100%;
+}
+
+td, th {
+  width: 25%;
+  padding: 20px !important;
+}
+
+.mat-header-row {
+  background-color: #fff !important;
+}
+
+  .mat-header-row:hover {
+    background-color: #fff !important;
+  }
+
+mat-row.group-header {
+  background-color: #00abff !important;
+}
+mat-row:nth-child(2n+1),
+tr:nth-child(2n+1) {
+  background-color: aliceblue;
+}
+mat-row:hover,
+tr:hover{
+    cursor:pointer;
+   /* background-color: #00abff;*/
+    opacity:0.5;
+} 
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+
+
+/*
+    @Buttons stylesheet
+*/
+.btn-add,
+.btn-save {
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #fff !important;
+  margin: 10px 0px;
+  padding: 5px 40px 10px 40px;
+  background-color: #009933;
+  border: none;
+  border-radius: 0px;
+}
+
+.btn-back {
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #fff !important;
+  padding: 5px 40px 10px 40px;
+  background-color: #009992;
+  border: none;
+  border-radius: 0px;
+}
+.btn-remove {
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #fff !important;
+  padding: 14px 20px;
+  background-color: #009992;
+  border: none;
+  border-radius: 0px;
+}
+
+.btn-add:hover,
+.btn-save:hover {
+  vertical-align: middle;
+  color: #009933 !important;
+  background-color: #fff;
+  border: 1px solid #009933;
+  border-radius: 0px;
+  text-decoration: none;
+}
+.btn-remove:hover,
+.btn-back:hover {
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #009992 !important;
+  background-color: #fff;
+  border: 1px solid #009992;
+  border-radius: 0px;
+  text-decoration: none;
+}
+
+/*
+    @Inputs styleshet
+*/
+.link-edit {
+  color: #ff0000 !important;
+}
+.pull-right{
+    float: right;
+}
+

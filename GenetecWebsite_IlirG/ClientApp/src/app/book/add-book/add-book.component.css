@@ -1,0 +1,42 @@
+/*.btn-save {
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #fff !important;
+  margin: 10px 0px;
+  padding: 5px 40px 10px 40px;
+  background-color: #009933;
+  border: none;
+  border-radius: 0px;
+}
+
+
+.btn-back {
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #fff !important;
+  padding: 5px 40px 10px 40px;
+  background-color: #009992;
+  border: none;
+  border-radius: 0px;
+}
+
+
+
+.btn-save:hover {
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #009933 !important;
+  background-color: #fff;
+  border: 1px solid #009933;
+  border-radius: 0px;
+}
+
+.btn-back:hover {
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #009992 !important;
+  background-color: #fff;
+  border: 1px solid #009992;
+  border-radius: 0px;
+}
+*/
