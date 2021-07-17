@@ -6310,23 +6310,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ilir.gashi\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ilir.gashi\\source\\repos\\Genetec_IlirG\\GenetecService_IlirG\\GenetecService_IlirG.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\Angular-MaterialTable\\GenetecService_IlirG\\GenetecService_IlirG.csproj",
       "projectName": "GenetecService_IlirG",
-      "projectPath": "C:\\Users\\ilir.gashi\\source\\repos\\Genetec_IlirG\\GenetecService_IlirG\\GenetecService_IlirG.csproj",
-      "packagesPath": "C:\\Users\\ilir.gashi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ilir.gashi\\source\\repos\\Genetec_IlirG\\GenetecService_IlirG\\obj\\",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Angular-MaterialTable\\GenetecService_IlirG\\GenetecService_IlirG.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\Angular-MaterialTable\\GenetecService_IlirG\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\ilir.gashi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -6335,13 +6335,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://hahn-softwareentwicklung.pkgs.visualstudio.com/_packaging/artifacts%40Local/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\ilir.gashi\\source\\repos\\Genetec_IlirG\\GenetecDomain_IlirG\\GenetecDomain_IlirG.csproj": {
-              "projectPath": "C:\\Users\\ilir.gashi\\source\\repos\\Genetec_IlirG\\GenetecDomain_IlirG\\GenetecDomain_IlirG.csproj"
+            "C:\\Users\\User\\Documents\\GitHub\\Angular-MaterialTable\\GenetecDomain_IlirG\\GenetecDomain_IlirG.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Angular-MaterialTable\\GenetecDomain_IlirG\\GenetecDomain_IlirG.csproj"
             }
           }
         }
@@ -6354,6 +6356,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Autofac": {
             "target": "Package",
@@ -6418,7 +6421,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,71 +1,52 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 using GenetecDomain_IlirG.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace GenetecDomain_IlirG
 {
 
     public partial class Genetec_IlirGContext : DbContext
-    {
-        public Genetec_IlirGContext()
-        {
-        }
-
+    {      
         public Genetec_IlirGContext(DbContextOptions<Genetec_IlirGContext> options)
             : base(options)
         {
         }
-
-        public virtual DbSet<BookEntities> BookEntities { get; set; }
-        public virtual DbSet<History> History { get; set; }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("server=NBGASHIIW10\\ILIRGASHI;database=Genetec_IlirG;Trusted_Connection=True;");
-            }
-        }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<BookEntities>(entity =>
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(Genetec_IlirGContext).Assembly);
+            modelBuilder.Entity<History>()
+                        .Property(f => f.Id)
+                        .ValueGeneratedOnAdd();
+            modelBuilder.Entity<BookEntities>()
+                       .Property(f => f.Id)
+                       .ValueGeneratedOnAdd();
+            var dateTimeConverter = new ValueConverter<DateTime, DateTime>(
+                v => v.ToLocalTime(),
+                v => DateTime.SpecifyKind(v, DateTimeKind.Local));
+
+            var nullableDateTimeConverter = new ValueConverter<DateTime?, DateTime?>(
+                v => v.HasValue ? v.Value.ToLocalTime() : v,
+                v => v.HasValue ? DateTime.SpecifyKind(v.Value, DateTimeKind.Local) : v);
+
+            foreach (var entityType in modelBuilder.Model.GetEntityTypes())
             {
-                entity.HasIndex(e => e.Id);
+                if (entityType.IsKeyless)
+                    continue;
 
-                entity.Property(e => e.Title)
-                    .HasMaxLength(500);
-
-                entity.Property(e => e.Description).HasColumnType("text");
-
-                entity.Property(e => e.PublishDate)
-                   .HasColumnType("datetime")
-                   .HasDefaultValueSql("(getdate())");
-
-                entity.Property(e => e.Authors)
-                   .HasMaxLength(500);
-
-            });
-
-            modelBuilder.Entity<History>(entity =>
-            {
-                entity.HasIndex(e => e.Id);
-
-                entity.Property(e => e.DateChanged)
-                   .HasColumnType("datetime")
-                   .HasDefaultValueSql("(getdate())");
-
-                entity.Property(e => e.Description).HasColumnType("text");              
-            });
-
-            OnModelCreatingPartial(modelBuilder);
+                foreach (var property in entityType.GetProperties())
+                    if (property.ClrType == typeof(DateTime))
+                        property.SetValueConverter(dateTimeConverter);
+                    else if (property.ClrType == typeof(DateTime?))
+                        property.SetValueConverter(nullableDateTimeConverter);
+            }
         }
-
-        partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+     
     }
 }
 

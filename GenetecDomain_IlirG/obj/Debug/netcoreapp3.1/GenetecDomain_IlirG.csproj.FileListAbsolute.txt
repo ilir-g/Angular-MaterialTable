@@ -10,3 +10,15 @@ C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecDomain_IlirG\obj\Debug\net
 C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecDomain_IlirG\obj\Debug\netcoreapp3.1\GenetecDomain_IlirG.pdb
 C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecDomain_IlirG\obj\Debug\netcoreapp3.1\GenetecDomain_IlirG.genruntimeconfig.cache
 C:\Users\ilir.gashi\source\repos\Genetec_IlirG\GenetecDomain_IlirG\obj\Debug\netcoreapp3.1\GenetecDomain_IlirG.csprojAssemblyReference.cache
+C:\Users\User\Documents\GitHub\Angular-MaterialTable\GenetecDomain_IlirG\bin\Debug\netcoreapp3.1\GenetecDomain_IlirG.deps.json
+C:\Users\User\Documents\GitHub\Angular-MaterialTable\GenetecDomain_IlirG\bin\Debug\netcoreapp3.1\GenetecDomain_IlirG.runtimeconfig.json
+C:\Users\User\Documents\GitHub\Angular-MaterialTable\GenetecDomain_IlirG\bin\Debug\netcoreapp3.1\GenetecDomain_IlirG.runtimeconfig.dev.json
+C:\Users\User\Documents\GitHub\Angular-MaterialTable\GenetecDomain_IlirG\bin\Debug\netcoreapp3.1\GenetecDomain_IlirG.dll
+C:\Users\User\Documents\GitHub\Angular-MaterialTable\GenetecDomain_IlirG\bin\Debug\netcoreapp3.1\GenetecDomain_IlirG.pdb
+C:\Users\User\Documents\GitHub\Angular-MaterialTable\GenetecDomain_IlirG\obj\Debug\netcoreapp3.1\GenetecDomain_IlirG.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\Angular-MaterialTable\GenetecDomain_IlirG\obj\Debug\netcoreapp3.1\GenetecDomain_IlirG.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\Angular-MaterialTable\GenetecDomain_IlirG\obj\Debug\netcoreapp3.1\GenetecDomain_IlirG.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\Angular-MaterialTable\GenetecDomain_IlirG\obj\Debug\netcoreapp3.1\GenetecDomain_IlirG.dll
+C:\Users\User\Documents\GitHub\Angular-MaterialTable\GenetecDomain_IlirG\obj\Debug\netcoreapp3.1\GenetecDomain_IlirG.pdb
+C:\Users\User\Documents\GitHub\Angular-MaterialTable\GenetecDomain_IlirG\obj\Debug\netcoreapp3.1\GenetecDomain_IlirG.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\Angular-MaterialTable\GenetecDomain_IlirG\obj\Debug\netcoreapp3.1\GenetecDomain_IlirG.csprojAssemblyReference.cache

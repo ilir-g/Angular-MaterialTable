@@ -13,6 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System;
+using System.Threading.Tasks;
 
 namespace GenetecWebSite_IlirG
 {
@@ -37,7 +38,9 @@ namespace GenetecWebSite_IlirG
             });
 
             //register db context
-            services.AddDbContext<Genetec_IlirGContext>(opts => opts.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
+            var connectionString = Configuration["ConnectionStrings:DefaultConnection"];
+            services.AddDbContext<Genetec_IlirGContext>(c => { c.UseSqlServer(connectionString, b => b.MigrationsAssembly("GenetecDomain_IlirG")); });
+
            
             //add swagger
             services.AddSwaggerGen(c =>
@@ -61,7 +64,7 @@ namespace GenetecWebSite_IlirG
             ConfigureContainer(builder);
 
             AutofacContainer = builder.Build();
-
+          
             // this will be used as the service-provider for the application!
             return new AutofacServiceProvider(AutofacContainer);
 
@@ -130,6 +133,13 @@ namespace GenetecWebSite_IlirG
                     spa.UseAngularCliServer(npmScript: "start");
                 }
             });
+
+            var serviceProvider = app.ApplicationServices;
+
+            using var serviceScope = serviceProvider
+               .GetRequiredService<IServiceScopeFactory>()
+               .CreateScope();
+            MigrationExecuter.Run(serviceProvider);
         }
     }
 }

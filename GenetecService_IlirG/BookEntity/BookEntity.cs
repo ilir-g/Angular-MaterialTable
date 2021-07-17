@@ -10,10 +10,10 @@ namespace GenetecService_IlirG.BookEntity
 {
     public class BookEntity : GenericRepository<BookEntities>, IBookEntity
     {
-        private IBookHistory BookHistory { get; set; }
-        public BookEntity(IBookHistory bookEntity, Genetec_IlirGContext context):base(context)
+        private IBookHistory _bookHistory { get; set; }
+        public BookEntity(IBookHistory bookHistory, Genetec_IlirGContext context):base(context)
         {
-            BookHistory = bookEntity;
+            _bookHistory = bookHistory;
         }
         public async Task<ResponseModel<IEnumerable<BookEntities>>> GetBookEntitiesListAsync()
         {
@@ -87,7 +87,7 @@ namespace GenetecService_IlirG.BookEntity
                 }
                 if(listBookHistory.Count > 0)
                 {
-                    var result = await BookHistory.CreateRangeBookHistoryAsync(listBookHistory);
+                    var result = await _bookHistory.CreateRangeBookHistoryAsync(listBookHistory);
 
                     if (result.HasError)
                     {
