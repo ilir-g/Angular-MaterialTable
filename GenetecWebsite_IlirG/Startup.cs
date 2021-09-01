@@ -139,7 +139,8 @@ namespace GenetecWebSite_IlirG
             using var serviceScope = serviceProvider
                .GetRequiredService<IServiceScopeFactory>()
                .CreateScope();
-            MigrationExecuter.Run(serviceProvider);
+
+            //MigrationExecuter.Run(serviceProvider);
         }
     }
 }
